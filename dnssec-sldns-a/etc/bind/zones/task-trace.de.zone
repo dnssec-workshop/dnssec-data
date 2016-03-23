@@ -4,5 +4,5 @@ task-trace.de.		SOA	ns1.dnsprovi.de. dnssec.arminpech.de. ( 1 1800 900 1814400 1
 task-trace.de.		NS	ns1.dnsprovi.de.
 task-trace.de.		NS	ns2.dnsprovi.de.
 
-task-trace.de.		A	10.20.4.23
+task-trace.de.		A	10.20.4.1
 www.task-trace.de.	CNAME	www.dnsprovi.de.

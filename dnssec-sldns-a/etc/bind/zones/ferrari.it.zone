@@ -5,5 +5,5 @@ ferrari.it.		NS	ns1.ferrari.it.
 ferrari.it.		NS	ns2.dnsprovi.de.
 ns1.ferrari.it.		A	10.20.4.1
 
-ferrari.it.		A	10.20.4.23
+ferrari.it.		A	10.20.4.1
 www.ferrari.it.		CNAME	www.dnsprovi.de.

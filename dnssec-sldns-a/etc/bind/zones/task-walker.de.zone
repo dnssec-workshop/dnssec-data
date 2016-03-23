@@ -4,7 +4,7 @@ task-walker.de.		SOA	ns1.dnsprovi.de. dnssec.arminpech.de. ( 1 1800 900 1800 180
 task-walker.de.		NS	ns1.dnsprovi.de.
 task-walker.de.		NS	ns2.dnsprovi.de.
 
-task-walker.de.		A	10.20.4.23
+task-walker.de.		A	10.20.4.1
 test1.task-walker.de.	A	127.0.0.1
 test2.task-walker.de.	A	127.0.0.2
 test3.task-walker.de.	A	127.0.0.3

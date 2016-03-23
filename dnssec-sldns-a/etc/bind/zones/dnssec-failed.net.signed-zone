@@ -23,7 +23,7 @@ dnssec-failed.net.	1800	IN SOA	ns1.dnsprovi.de. dnssec.dnssec-failed.net. (
 					PVu++BY8TPMD71BzIoOl49cTRWu/s9BhSp9U
 					zYtUbt4e603Rw6pB5UNhiOkDQwo6FSUXFc0A
 					Je19ef1+S25s4pnNT8rQFFMoNV0= )
-			1800	A	10.20.4.23
+			1800	A	10.20.4.1
 			60	RRSIG	A 8 2 1800 (
 					20160317202248 20160317202148 16611 dnssec-failed.net.
 					6/4DbQiU8eXENTzku3PzzKvLTl9LOk70G/Rx
@@ -74,7 +74,7 @@ dnssec-failed.net.	1800	IN SOA	ns1.dnsprovi.de. dnssec.dnssec-failed.net. (
 					20160317202248 20160317202148 16611 dnssec-failed.net.
 					35tpU8ng+KzoRzlB59iAynDa5oGa7/4xlI/W
 					DwkgiCWb1feRDHbnFtKs+nPoRsk2ctQxEJkc
-					Ke/9BlXi0LKi5QEGkormFj84MVn4mlqElG23
+					Ke/9BlXi0LKi5QEGkormFj84MVn4mlqEl.1
 					5fMGlS2aCjjiEFHPCxNaJoHg9AX5RZtKUP7L
 					bXmWILz79YBSwCa/bsYcYOV6PeY= )
 FKUUIFU3F7FVF0COHFAIAOSHEMSJKEOR.dnssec-failed.net. 1800 IN NSEC3 1 0 10 01234567 (

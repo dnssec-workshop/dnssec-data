@@ -7,8 +7,8 @@ de.		NS	b.denic.de.
 a.nic.de.	A	10.20.2.1
 b.denic.de.	A	10.20.2.2
 
-denic.de.       A       10.20.2.23
-nic.de.         A       10.20.2.23
+denic.de.       A       10.20.2.1
+nic.de.         A       10.20.2.1
 
 whois.de        A       10.20.2.22
 

@@ -4,5 +4,5 @@ arminpech.de.		SOA	ns1.dnsprovi.de. dnssec.arminpech.de. ( 1 1800 900 1800 1800 
 arminpech.de.		NS	ns1.dnsprovi.de.
 arminpech.de.		NS	ns2.dnsprovi.de.
 
-arminpech.de.		A	10.20.4.23
+arminpech.de.		A	10.20.4.1
 www.arminpech.de.	CNAME	www.dnsprovi.de.
