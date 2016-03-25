@@ -2,7 +2,8 @@
 set -x
 set -e
 
-sed 's/password = .*/password = root/g' -i /etc/mysql/debian.cnf
+sed -i 's/password = .*/password = root/g' /etc/mysql/debian.cnf
+sed -i 's/^log_error/# log_error/' /etc/mysql/mysql.conf.d/mysqld.cnf
 mysql_install_db --user=mysql
 mysqld_safe &
 sleep 30
