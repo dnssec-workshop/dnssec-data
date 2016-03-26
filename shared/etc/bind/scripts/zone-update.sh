@@ -23,7 +23,7 @@ do
 	echo "=== $tld ==="
 	$(dirname $0)/update-zone-from-db.sh $tld $FORCE_SERIAL
 	$(dirname $0)/sign-zone.sh $tld
-	scp ${KEYFILE_DIR}/dsset-${tld}. $DSSETS_TARGET
+	scp -o "StrictHostKeyChecking no" ${KEYFILE_DIR}/dsset-${tld}. $DSSETS_TARGET
 	echo
 done
 
