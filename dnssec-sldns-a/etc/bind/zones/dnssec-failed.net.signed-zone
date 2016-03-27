@@ -1,5 +1,5 @@
-; File written on Thu Mar 17 22:21:48 2016
-; dnssec_signzone version 9.10.3-P2
+; File written on Sun Mar 27 15:23:28 2016
+; dnssec_signzone version 9.10.3-P2-Ubuntu
 dnssec-failed.net.	1800	IN SOA	ns1.dnsprovi.de. dnssec.dnssec-failed.net. (
 					1          ; serial
 					1800       ; refresh (30 minutes)
@@ -7,30 +7,30 @@ dnssec-failed.net.	1800	IN SOA	ns1.dnsprovi.de. dnssec.dnssec-failed.net. (
 					1814400    ; expire (3 weeks)
 					1800       ; minimum (30 minutes)
 					)
-			60	RRSIG	SOA 8 2 1800 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					xZAAxxxFm0R9Lm3LfBnI82Mea0h+VY3RzFJv
-					lOQVp7qKeZ1heS0wZ88lPtH1vq1UUWcAbk1B
-					FZK1kKY6OpAoFbavLyNTlXAzdyvI/UZfv69W
-					062YPSl1VFPsE5TXd7XwhioMdB5Qmrwurb+k
-					R0vbM9raD6aiM0Nty85VnaT2mtM= )
+			1800	RRSIG	SOA 8 2 1800 (
+					20160327151913 20160327122328 16611 dnssec-failed.net.
+					fU0UJjPLH6WXV26YzJTQTYzONTcMTVZ2zD1g
+					sNDh/wnkl8CcCihVpiWe1Bv0hT18VGiDQkxT
+					oO/nK/Rt7/1G+I7zsE98HuWmqJ9RPJ95tGEN
+					L38yT6HFodFv0gn/Hkv368sLNUuT9+++NmkK
+					+gJiRYLJQ4KpzhrYbLFG+Rf0K1o= )
 			1800	NS	ns1.dnsprovi.de.
 			1800	NS	ns2.dnsprovi.de.
-			60	RRSIG	NS 8 2 1800 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					DTMUGFE5D6atn52jwUUCPapfjednQ9nHgOK9
-					gkI/8uv7Xpz6lEHGoOqSRJTwdFAminVAKfUe
-					PVu++BY8TPMD71BzIoOl49cTRWu/s9BhSp9U
-					zYtUbt4e603Rw6pB5UNhiOkDQwo6FSUXFc0A
-					Je19ef1+S25s4pnNT8rQFFMoNV0= )
+			1800	RRSIG	NS 8 2 1800 (
+					20160327151616 20160327122328 16611 dnssec-failed.net.
+					S0uiF3GkJytn0r5BxrRxYe05Iq6VVYRObOtm
+					5Fx3wHdxS24UJ6TfXTv38Q5EUbBFvnJX5wRi
+					Pedc9S1gwoHnhMb2oddY5M907Ysvv7bpy35Q
+					/yQboePkO0XU3C/FJER3VTnY5foz2fhR+JNP
+					JTV3bLzBVs5TwZu0DzdKR5erCcI= )
 			1800	A	10.20.4.1
-			60	RRSIG	A 8 2 1800 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					6/4DbQiU8eXENTzku3PzzKvLTl9LOk70G/Rx
-					a6behy0gStmKhPwOaYqysbluCbQ/o/AD/9Fd
-					LDXQ1fJAqlK3zzlgqcLobJhzgPa8uqZShSaZ
-					fReVbtcYb2hLjdIfQP1UiZjIh0TOUGVCWJWD
-					UzKGkdV0J/pOyRO3NyZ2V+FdPqE= )
+			1800	RRSIG	A 8 2 1800 (
+					20160327151949 20160327122328 16611 dnssec-failed.net.
+					hTC8us6rbFXRgbYcl7nGRpamJU6jIR7ATrgt
+					AmQ/8JxMPHvm7mEJl68YmTnxBIOTIxJC91qm
+					Rm1yP/losbtgfjWLXSesMtnqvl0rKFxNJZvm
+					VdyfEpBkuiiBbqHTyHXgRWR/JyvhKTUXqwAZ
+					TOw+vcV6oy8trGamxcRd6OSpBjo= )
 			300	DNSKEY	256 3 8 (
 					AwEAAfuZ9RSOrIJKbTBm6Ymz+SxAGjQsf+BX
 					RROtqBRk24FBFFQ3OpPVX3Qbc3EMO2tCKfFl
@@ -50,58 +50,58 @@ dnssec-failed.net.	1800	IN SOA	ns1.dnsprovi.de. dnssec.dnssec-failed.net. (
 					B4sWPjPqdBgQGNPek1uzrfdX2uoh8IaF1Yeq
 					XR9/kKq8rwgaJNp+aAs56Mc=
 					) ; KSK; alg = RSASHA256; key id = 8437
-			60	RRSIG	DNSKEY 8 2 300 (
-					20160317202248 20160317202148 8437 dnssec-failed.net.
-					iG8rwQda39NiAVeDaAoCZX49qTCFCOXYociQ
-					ah78pIUtxlGMCx+C1KPRMslL/n8UR5dKZK/D
-					gx/KUp5tyKECGbvL9gzy4O0aLqe9OIJvGJsP
-					fzUcBLWbKEQBfVq8YVnGkGz7FPdMjSb7avBd
-					6Q4IqhRONocdUeSHXkVfLSzKMQGPiMU6/ROU
-					MFKB9p8LvQRAB+FynGlIC9C8qUQtKolrSizp
-					Hvh1Htd5HcxJTDTelNt39PidLZp1jCuti7RM
-					RPAsF79hFfctQdNSpCXFA+CEwSRfp7y4XC+3
-					vS+4iSYD2T85Cc8G+P1T1gRIv/8XjksdarP3
-					BNgDag41v6ipU/KyxQ== )
-			60	RRSIG	DNSKEY 8 2 300 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					7JygCKqcfo6qn6KANjk95j7Gudcz9vX7AgP2
-					D51AbvJn1yZYq9/v2BaC5IW3wwxqZr09aiRA
-					IYq14cPHKZb/xW/97WEPgcLqxog4NyOpO8bP
-					amq2mYdJ1FGlAVihTvfuxBO2B6W8Ju8t94aD
-					Yjd5/okKqS5kdVIqcKtrEI2owPk= )
+			300	RRSIG	DNSKEY 8 2 300 (
+					20160327151847 20160327122328 8437 dnssec-failed.net.
+					h7PS8mE6xlsRKr9TIptGK9HE9yU78/EKDCBv
+					iS2yYa/ESF8Uk0e0QLkWAQZUZfBo7vu0Cwcp
+					WK8y3kyij2QjRucI3Wdd4yu+aXYmKChU9cKE
+					6Kx9QrJ+gYTERuNUjNu+jvSjUlh2ArG8y5mr
+					6aBh/idP/DIsgwtWSP1JbiTAsqSBLB45jRW1
+					iCrPck+TgA951VuYfKfpQHPGitRrNviia02y
+					7Hrqgk09LCvs/c077vQQnGyQiXKgiJ+/QyDk
+					eGoL1WaZOCfQFfBXhYgXKTnxf77GNimR9xR2
+					H5t64er20Oh48ttEXeCMZQQnL7hOa49RDUKg
+					AElo1NpEaU/G3anmsQ== )
+			300	RRSIG	DNSKEY 8 2 300 (
+					20160327152032 20160327122328 16611 dnssec-failed.net.
+					1pOCHpCaQsJ5gBgNTPXCU48+fPz9kjlOB//W
+					RbrfmqccvXnxPjAz29x/9o6lQjjpq0VrNWkN
+					aUzZnr0DwTBApO3vBTPQXJNInPwHp6W+KZSc
+					cKTtwAXGCWYc0HWA0nAjxisFzDnMCeJK7WVZ
+					ptqNvvjCCa3ClagrPnA1CsVl1zA= )
 			0	NSEC3PARAM 1 0 10 01234567
 			0	RRSIG	NSEC3PARAM 8 2 0 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					35tpU8ng+KzoRzlB59iAynDa5oGa7/4xlI/W
-					DwkgiCWb1feRDHbnFtKs+nPoRsk2ctQxEJkc
-					Ke/9BlXi0LKi5QEGkormFj84MVn4mlqEl.1
-					5fMGlS2aCjjiEFHPCxNaJoHg9AX5RZtKUP7L
-					bXmWILz79YBSwCa/bsYcYOV6PeY= )
-FKUUIFU3F7FVF0COHFAIAOSHEMSJKEOR.dnssec-failed.net. 1800 IN NSEC3 1 0 10 01234567 (
-					F0287O7V2DUI86BPTB01A520T4VCGBOG
-					CNAME RRSIG )
-			60	RRSIG	NSEC3 8 3 1800 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					bavzlYaPsiLzq+TXYVS8z/kpBtEsutNaOkJO
-					RX5TAEbhguTSYmHFEjTisouYoGCDQFSmDG0W
-					cIqLCgncdAB8mlLosrx0Q89zW+QUia4OcLA5
-					aowUQr1VjXYt6/OTu6jLEFmK9OpOpH7bPGeZ
-					SU93mtaSItUauF72qmxdg4vNNHo= )
+					20160327152012 20160327122328 16611 dnssec-failed.net.
+					fZtqUR+w5oP97+BxlVB+VkfhvEOmQkcjc1e1
+					jR/LFr4d6MuMFfnzdoxe5v15jtYPIc5Ltn6b
+					ZLRpK8xf6ZoFXJV2w64lGeIg4e4qhhB1TAJC
+					FVjzEhg21D3b38iTAbTx0ZlYqr/pOJoXTbeJ
+					5VY7Tqj+bwUHycRqCsjLIA4FKyM= )
 www.dnssec-failed.net.	1800	IN CNAME www.dnsprovi.de.
-			60	RRSIG	CNAME 8 3 1800 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					ZOYTIrECDaJ8CR4PrmOpr+uk1FdrBx14sHfy
-					u2DR5xXCOnLJihSVVRrdGJ7c6+ddJw4afZAL
-					/yZkXxrEX02mz/ytQbs+v6NU/13BIW5sEjzg
-					TLvmRLqlS7IxXKhsGEewW92QUU0lBRipTlvA
-					PGsoi4+lfzZkJh/BsabpK4kczN8= )
+			1800	RRSIG	CNAME 8 3 1800 (
+					20160327151943 20160327122328 16611 dnssec-failed.net.
+					2Fg3gotVhRrGqIFWIZM8PDQNQrf8/TwBdP1t
+					dtzGAtm82DrILQXubwcJ6gBobrzO6r1R8m1K
+					ZDL2dCqxSFKuCe7tHk+5ZazPigxrsEY8WVTK
+					c8NwgbeSctGz74AyyVd9arulcjs4UqI4k0+f
+					yX2yBDjg2tUAHS3blE3fhm1Wdic= )
 F0287O7V2DUI86BPTB01A520T4VCGBOG.dnssec-failed.net. 1800 IN NSEC3 1 0 10 01234567 (
 					FKUUIFU3F7FVF0COHFAIAOSHEMSJKEOR
 					A NS SOA RRSIG DNSKEY NSEC3PARAM )
-			60	RRSIG	NSEC3 8 3 1800 (
-					20160317202248 20160317202148 16611 dnssec-failed.net.
-					6NQu+mK2JAFyQp1I5juu9SLAM3CDbA7E2+R1
-					qCfg7cCU863I5xXh8HEta7+V85hdV8gtqYZF
-					OPNioI/6aKiTmryPfWb8ih875XfwF4ZQ1fP8
-					sOTvyhNh43umenHNZn7ESwaa7HQA6cMN6XfK
-					AqnJN2hjSMqE6pxm3DrrFmr1Ti8= )
+			1800	RRSIG	NSEC3 8 3 1800 (
+					20160327151542 20160327122328 16611 dnssec-failed.net.
+					+VMXEV4jM63sop+08ibs2pKdx2Lo6FyGmTWJ
+					aV/kJEDMx3Ggo4vY/C8fzjpOB/aBK4hes7RC
+					2oqeb3vq5V40U6mrJarYVffrMwSqrKr+VwFq
+					Ygk1C/7NUrxDGGzf37csgF7vjU60pC4QM+3b
+					w0CRP44NEEkxaNGMqnb1HaRsrdY= )
+FKUUIFU3F7FVF0COHFAIAOSHEMSJKEOR.dnssec-failed.net. 1800 IN NSEC3 1 0 10 01234567 (
+					F0287O7V2DUI86BPTB01A520T4VCGBOG
+					CNAME RRSIG )
+			1800	RRSIG	NSEC3 8 3 1800 (
+					20160327152322 20160327122328 16611 dnssec-failed.net.
+					vaftfL8PwrL8ZAGn9LE1y31M3/3iDJkax/Sw
+					P9RoZyVrVoMnpruH2S/BktyWF0aLRrIsowmv
+					sQ67P2glCLIreamBMyMDCONrcQCYlwoUr7FU
+					BZ/U9YBM9nAQBlkzZbWJRfLBKHJ72HXjUbbl
+					QJmoJGr4KkO/onQ1CmDvO1SJ3fw= )
