@@ -9,7 +9,7 @@ cat > /etc/mysql/mysql.conf.d/mysql-skip-name-resolv.cnf <<EOF
 skip_name_resolve
 EOF
 
-mysql_install_db --user=mysql --datadir=/var/lib/mysql
+mysqld --initialize --user=mysql --datadir /var/lib/mysql
 
 cd /usr ; mysqld &
 sleep 15
